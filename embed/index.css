@@ -6,5 +6,5 @@
     display: none;
 }
 #checkbox-compact:checked ~ main {
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
 }

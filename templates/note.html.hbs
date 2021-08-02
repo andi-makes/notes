@@ -2,6 +2,7 @@
 
 <style>
     {{embed "embed/notes.css"}}
+    {{ embed "style/highlightjs.css" }}
 </style>
 
 <article class="card">
@@ -9,6 +10,9 @@
     <p class="author">by {{ note_author filename }} | {{ note_date filename }}</p>
     {{ note filename }}
 </article>
+
+<script src="/static/highlight.js"></script>
+<script>hljs.highlightAll();</script>
 
 {{/inline}}
 {{> base}}
