@@ -1,0 +1,16 @@
+{{#*inline "content"}}
+
+<style>
+    {{embed "embed/index.css"}}
+</style>
+
+{{#each note}}
+<article class="card">
+    <h1><a href="notes/{{ path }}">{{ note_title filename }}</a></h1>
+    <p class="author">by {{ note_author filename }} | {{ note_date filename }}</p>
+    <p>{{ note_description filename }}</p>
+</article>
+{{/each}}
+
+{{/inline}}
+{{> base}}

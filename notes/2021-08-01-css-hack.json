@@ -1,0 +1,7 @@
+{
+    "template_name": "note",
+    "context": {
+        "filename": "notes/2021_08_01-Andreas_Kohler-css_hack.md",
+        "embedded_css": "embedded/style.css"
+    }
+}

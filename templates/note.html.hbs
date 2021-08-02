@@ -1,0 +1,14 @@
+{{#*inline "content"}}
+
+<style>
+    {{embed "embed/notes.css"}}
+</style>
+
+<article class="card">
+    <h1>{{ note_title filename }}</h1>
+    <p class="author">by {{ note_author filename }} | {{ note_date filename }}</p>
+    {{ note filename }}
+</article>
+
+{{/inline}}
+{{> base}}
