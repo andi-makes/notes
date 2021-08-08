@@ -21,15 +21,6 @@
     color: var(--text-2);
 }
 
-.number {
-    color: var(--text-2);
-}
-
-.title {
-    font-style: italic;
-    margin: 0 0.25em;
-}
-
 ::placeholder {
     color: var(--text-2);
     font-style: italic;
@@ -95,12 +86,14 @@ main {
 p {
     line-height: 1.25;
     text-align: justify;
+    margin: 1rem 0px;
 }
 
 code {
     background-color: var(--background);
-    filter: brightness(1.1);
+    box-shadow: 2px 2px 2px 1px var(--shadow);
     border-radius: 5px;
+    font-family: 'Inconsolata', monospace;
 }
 
 body {
@@ -151,7 +144,7 @@ a {
     transition: color 500ms, background-color 500ms;
 }
 
-a>svg {
+a>svg, a>img {
     fill: currentColor;
     display: inline-block;
     width: 1em;
@@ -179,6 +172,11 @@ h1::before {
 
 h2 {
     font-size: 1.25rem;
+}
+
+h2::before {
+    content: "## ";
+    color: var(--text-2);
 }
 
 @media screen and (max-width: 1020px) {
