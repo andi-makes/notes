@@ -78,7 +78,7 @@ label {
 
 main {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(40ch, 1fr));
+    grid-template-columns: 100%;
     gap: 15px;
     margin: 15px 0;
 }
@@ -161,7 +161,7 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 0.2rem;
 }
 
@@ -171,7 +171,8 @@ h1::before {
 }
 
 h2 {
-    font-size: 1.25rem;
+    margin-top: 2rem;
+    font-size: 1.75rem;
 }
 
 h2::before {
