@@ -5,10 +5,10 @@ The beginning of this story. The story how I use Arch, btw.
 
 # It starts with Windows...
 
-Of course it does. It was a normal day. I was using [WSL, the Windows Subsystem for Linux](TODO) to edit
-some source code of [a little project of mine, my own wristwatch.]()
+Of course it does. It was a normal day. I was using [WSL, the Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about) to edit
+some source code of [a little project of mine, my own wristwatch.](https://github.com/andi-makes/aWristWatch)
 
-I used [Visual Studio Code]() with the WSL remote extension, which served me well. I've been using
+I used [Visual Studio Code](https://code.visualstudio.com/) with the WSL remote extension, which served me well. I've been using
 this kind of setup since WSL support for Visual Studio Code came out. It worked pretty well, nothing
 to complain there. But then, something happened. Something that would change my life. Forever.
 
@@ -16,6 +16,8 @@ I opened the firmware folder for my wristwatch. But then, thing got weird. Someh
 directory in WSL got deleted. I don't exactly know *how* it happened. But this was the moment where
 I said to myself: "Andi, time to switch to fucking Linux". And I did. And what can I say, I don't 
 look back.
+
+*For that reason, the LIPO Charger Series will be a little bit delayed*
 
 # Once upon a time
 
@@ -48,8 +50,8 @@ It kind of happened.
 
 # My Arch config
 
-Well, just the usual craziness. [HerbstluftWM as my Window Manager](), [ly as a Display Manager](), [Polybar is the bar of my choice](),
-and [Alacritty suits all my Terminals needs](). I currently [write this note using neovim]() and I am really happy with it.
+Well, just the usual craziness. [HerbstluftWM as my Window Manager](https://herbstluftwm.org/), [ly as a Display Manager](https://github.com/nullgemm/ly), [Polybar is the bar of my choice](https://polybar.github.io/),
+and [Alacritty suits all my Terminals needs](https://alacritty.org/). I currently [write this note using neovim](https://neovim.io/) and I am really happy with it.
 
 But I have to say, Arch really isn't something for the normal user that just wants something *that works*. I've put *many* hours into
 customizing my Arch install to my needs, something not everybody would be willing to do.
