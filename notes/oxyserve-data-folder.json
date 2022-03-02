@@ -1,7 +1,0 @@
-{
-    "template_name": "note",
-    "context": {
-        "filename": "notes/2021_08_02-Andreas_Kohler-oxyserve_data_folder.md",
-        "embedded_css": "embedded/style.css"
-    }
-}
