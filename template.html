@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="$lang$" xml:lang="$lang$"$if(dir)$ dir="$dir$"$endif$>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+$for(author-meta)$
+  <meta name="author" content="$author-meta$" />
+$endfor$
+$if(date-meta)$
+  <meta name="dcterms.date" content="$date-meta$" />
+$endif$
+$if(keywords)$
+  <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />
+$endif$
+$if(description-meta)$
+  <meta name="description" content="$description-meta$" />
+$endif$
+  <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
+  <style>
+    $styles.html()$
+  </style>
+  <link rel="shortcut icon" href="/favicon.png">
+$for(css)$
+  <link rel="stylesheet" href="$css$" />
+$endfor$
+$for(header-includes)$
+  $header-includes$
+$endfor$
+$if(math)$
+  $math$
+$endif$
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<img src="/img/avatar.svg" title="My avatar, a simple smiley" id="avatar" alt="My avatar" style="max-width: 100px;"/>
+$if(title)$
+<header id="title-block-header">
+<h1 class="title">$title$</h1>
+$if(subtitle)$
+<p class="subtitle">$subtitle$</p>
+$endif$
+$for(author)$
+<p class="author">$author$</p>
+$endfor$
+$if(date)$
+<p class="date">$date$</p>
+$endif$
+</header>
+$endif$
+<main>
+$body$
+$if(notes)$
+<nav>
+$for(notes)$
+<a href="$notes.link$">
+<article>
+<h2>$notes.title$</h2>
+<span>by $notes.author$ | $notes.date$</span>
+</article>
+</a>
+$endfor$
+</nav>
+$endif$
+</main>
+$if(article)$
+<footer>
+<p><a href="https://notes.andi-makes.dev/">Back to notes</a></p>
+<p><a href="$article.link$">This note</a> by <a href="$article.author-link$">$author$</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a></p>
+</footer>
+$else$
+<footer>
+Unless stated otherwise, the notes on this site are licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a>
+</footer>
+$endif$
+</body>
+</html>
