@@ -11,6 +11,10 @@ keywords:
   - electronics
 
 notes:
+  - title: TIL - About certbot, nginx and http2 on port 80
+    author: Andreas Kohler
+    date: 4th of April, 2022
+    link: https://notes.andi-makes.dev/2022-04-04-til-certbot-http2/
   - title: New Website using pandoc
     author: Andreas Kohler
     date: 2nd of March, 2022

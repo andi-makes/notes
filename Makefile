@@ -2,7 +2,8 @@ NOTES = 2021-08-01-css-hack\
 	oxyserve-data-folder\
 	2021-08-14-charger1\
 	2021-09-04-arch-btw\
-	2022-03-02-new-site
+	2022-03-02-new-site\
+	2022-04-04-til-certbot-http2
 SOURCES = index $(patsubst %, %/index, $(NOTES))
 RESOURCES = img/avatar.svg style.css favicon.png
 SERVER_DIR = /var/www/notes.andi-makes.dev
