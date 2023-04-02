@@ -2,8 +2,8 @@ html {
   line-height: 1.5;
   font-family: serif;
   font-size: 20px;
-  color: #fbf1c7;
-  background-color: #282828;
+  color: #cdd6f4;
+  background-color: #1e1e2e;
 }
 body {
   margin: 0 auto;
@@ -41,17 +41,17 @@ p {
   margin: 1rem 0;
 }
 a {
-  color: #8ec07c;
+  color: #f5e0dc;
 }
 a:visited {
-  color: #8ec07c;
+  color: #f2cdcd;
 }
 img {
   max-width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  color: #fe8019;
+  color: #89b4fa;
 }
 h5, h6 {
   font-size: 1rem;
@@ -134,22 +134,23 @@ footer {
   font-size: smaller;
   text-align: center;
   margin-top: 1.8rem;
+  color: #8087a2;
 }
 nav>a {
   text-decoration: none;
 }
 nav>a>article {
-  background-color: #1d2021;
-  border: 2px solid #1d2021;
+  background-color: #11111b;
+  border: 2px solid #11111b;
   border-radius: 1rem;
   padding: 1rem;
   margin: 1rem 0;
 }
 nav>a:hover>article {
-  border-color: #8ec07c;
+  border-color: #f5e0dc;
 }
 nav>a>article>span {
-  color: #fbf1c7;
+  color: #a6adc8;
 }
 footer>a>img {
   height: 1em;
